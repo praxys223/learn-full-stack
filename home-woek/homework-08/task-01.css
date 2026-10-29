@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+}
+
+main {
+    width: 330px;
+    margin: 50px auto;
+    padding: 28px;
+    background-color: white;
+}
+
+h1 {
+    margin: 0 0 30px;
+    font-size: 20px;
+}
+
+.switch-row {
+    margin-bottom: 35px;
+    white-space: nowrap;
+}
+
+.switch-row:last-child {
+    margin-bottom: 0;
+}
+
+.switch {
+    display: inline-block;
+    position: relative;
+    width: 130px;
+    height: 76px;
+    margin-right: 8px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.switch:last-child {
+    margin-right: 0;
+}
+
+.switch input {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.track {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+}
+
+.knob {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+}
+
+.switch input:checked ~ .track {
+    background-color: green;
+}
+
+.switch input:checked ~ .knob {
+    left: 62px;
+}
+
+.round .track,
+.round .knob {
+    border-radius: 50px;
+}
+
+.switch input:focus-visible ~ .track {
+    outline: 3px solid #194b9b;
+    outline-offset: 3px;
+}

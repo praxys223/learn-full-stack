@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+main {
+    min-height: 1400px;
+    padding: 30px;
+}
+
+section {
+    margin-top: 300px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 320px;
+    max-width: 80%;
+    padding: 25px;
+    background-color: white;
+    transform: translate(-50%, -50%);
+}
+
+.modal h2 {
+    margin-top: 0;
+}

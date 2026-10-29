@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 8 - Task 3</title>
+    <link rel="stylesheet" href="task-03.css">
+</head>
+<body>
+    <main>
+        <h1>A page with a modal window</h1>
+        <p>Scroll down the page. The dark background and the white window stay in the same place on the screen.</p>
+
+        <section>
+            <h2>First section</h2>
+            <p>Positioning helps us place elements where they are needed. This page is tall enough to scroll.</p>
+        </section>
+
+        <section>
+            <h2>Second section</h2>
+            <p>The page content moves behind the modal window when the page scrolls.</p>
+        </section>
+
+        <section>
+            <h2>Third section</h2>
+            <p>The overlay covers the entire visible area of the browser window.</p>
+        </section>
+    </main>
+
+    <div class="overlay">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <h2 id="modal-title">Modal window</h2>
+            <p>This white window stays in the center while the page scrolls.</p>
+        </div>
+    </div>
+</body>
+</html>
