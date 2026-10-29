@@ -17,3 +17,9 @@ The project owner is learning programming. Keep solutions clear and appropriate 
 - Keep each task's code independent and easy to open in a browser.
 - Use English for all new file and folder names, code identifiers, comments, and documentation. Write project documentation in English.
 - Follow the requirements and techniques in the corresponding lesson materials. Do not introduce unnecessary complexity beyond the lesson's scope.
+
+## Git workflow
+
+- After completing and verifying changes, create a Git commit with a clear message and push it to the current branch's remote. Do this automatically unless the owner explicitly asks otherwise.
+- Include only files related to the current task; do not commit unrelated changes.
+- If a commit or push fails, report the failure and the remaining action. Never claim changes were pushed without confirming success.
