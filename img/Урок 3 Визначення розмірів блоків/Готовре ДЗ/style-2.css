@@ -1,0 +1,16 @@
+.banner {
+    background-color: orange;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+.discount {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.banner a {
+    color: black;
+}

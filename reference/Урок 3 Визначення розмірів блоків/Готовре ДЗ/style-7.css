@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #3b3b3b;
+}
+
+.top-menu {
+    min-height: 84px;
+    padding: 4px 12px 4px 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    background: #808080;
+}
+
+.logo {
+    display: block;
+    width: 140px;
+    height: auto;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 24px;
+    color: #fff;
+    font-size: 11px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+}
+
+.contact-icon {
+    width: 13px;
+    height: 13px;
+    object-fit: contain;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 36px;
+    padding: 8px 10px;
+    border-radius: 20px;
+    background: #ffab00;
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:hover,
+.button:focus-visible {
+    background: #e99b00;
+}
+
+.main-content {
+    padding: 102px 20px 40px;
+    text-align: center;
+}
+
+.main-content h1 {
+    margin: 0 0 8px;
+    color: #ffab00;
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+.main-content p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-top: 45px;
+}
+
+.buttons .button {
+    width: 140px;
+}
+
+@media (max-width: 650px) {
+    .top-menu {
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 12px;
+    }
+
+    .contacts {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .main-content {
+        padding-top: 60px;
+    }
+
+    .main-content h1 {
+        font-size: 26px;
+    }
+}
