@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f6f2df;
+    color: #555;
+}
+
+.subscription {
+    min-height: 100vh;
+    padding: 135px 20px 80px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+p {
+    margin: 26px 0 62px;
+    font-size: 14px;
+}
+
+.subscription-form {
+    display: flex;
+    gap: 22px;
+    max-width: 757px;
+    margin: 0 auto;
+}
+
+input,
+button {
+    height: 80px;
+    border: 0;
+    border-radius: 4px;
+    font: inherit;
+}
+
+input {
+    min-width: 0;
+    flex: 1;
+    padding: 0 35px;
+    background: #fff;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #777;
+}
+
+button {
+    width: 214px;
+    background: #ff2d32;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e82027;
+}
+
+input:focus-visible,
+button:focus-visible {
+    outline: 2px solid #a5161b;
+    outline-offset: 3px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+@media (max-width: 600px) {
+    .subscription {
+        padding-top: 80px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        line-height: 1.5;
+        margin-bottom: 40px;
+    }
+
+    .subscription-form {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    input {
+        flex: none;
+    }
+
+    input,
+    button {
+        width: 100%;
+        height: 60px;
+    }
+}

@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+}
+
+.signup {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 28px 20px 80px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 28px;
+    color: #888;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.signup-form {
+    display: flex;
+    gap: 6px;
+}
+
+input,
+button {
+    height: 57px;
+    font: inherit;
+}
+
+input {
+    min-width: 0;
+    flex: 1;
+    padding: 0 22px;
+    border: 1px solid #d8d8d8;
+    border-radius: 0;
+    font-size: 14px;
+}
+
+input::placeholder {
+    color: #c8c8c8;
+    font-style: italic;
+}
+
+button {
+    width: 104px;
+    border: 0;
+    background: #65c3a2;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #51ad8e;
+}
+
+input:focus-visible,
+button:focus-visible {
+    outline: 2px solid #27866a;
+    outline-offset: 2px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+@media (max-width: 420px) {
+    .signup-form {
+        flex-direction: column;
+    }
+
+    input {
+        flex: none;
+    }
+
+    button {
+        width: 100%;
+    }
+}
