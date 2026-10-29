@@ -10,6 +10,10 @@ The project owner is learning programming. Keep solutions clear and appropriate 
 - `img/` contains images and other visual assets used in the project. Reuse relevant assets from this folder and reference them with correct relative paths.
 - `home-woek/` is the existing homework folder (keep this spelling unless the owner asks to rename it). Create a separate subfolder for each homework assignment, such as `home-woek/homework-01/`.
 
+## Browser access
+
+- Do not open, control, or use a browser unless the owner directly asks you to. Work with code and local files by default.
+
 ## Homework rules
 
 - Put every task in an assignment in its own HTML file and its own CSS file. For example, use `task-01.html` and `task-01.css`, then `task-02.html` and `task-02.css`.
