@@ -19,6 +19,7 @@ The project owner is learning programming. Keep solutions clear and appropriate 
 - Put every task in an assignment in its own HTML file and its own CSS file. For example, use `task-01.html` and `task-01.css`, then `task-02.html` and `task-02.css`.
 - Link each HTML file to its matching CSS file with a relative `<link rel="stylesheet" href="task-01.css">` element.
 - Keep each task's code independent and easy to open in a browser.
+- Do not duplicate tasks or create duplicate alternative files (for example, do not create both index.html and task-01.html for the same task). Keep a single, clear set of files.
 - Use English for all new file and folder names, code identifiers, comments, and documentation. Write project documentation in English.
 - Follow the requirements and techniques in the corresponding lesson materials. Do not introduce unnecessary complexity beyond the lesson's scope.
 
